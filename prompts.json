@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "prompt": "Explain quantum computing in simple terms that a high school student could understand.",
+    "category": "explanation"
+  },
+  {
+    "id": 2,
+    "prompt": "Write a Python function to calculate the Fibonacci sequence up to n terms.",
+    "category": "coding"
+  },
+  {
+    "id": 3,
+    "prompt": "What are the main causes of climate change and what can individuals do to help?",
+    "category": "factual"
+  },
+  {
+    "id": 4,
+    "prompt": "Summarize the key differences between machine learning and deep learning.",
+    "category": "explanation"
+  },
+  {
+    "id": 5,
+    "prompt": "Write a creative short story about a robot learning to paint.",
+    "category": "creative"
+  },
+  {
+    "id": 6,
+    "prompt": "Explain the concept of blockchain technology and its applications beyond cryptocurrency.",
+    "category": "explanation"
+  },
+  {
+    "id": 7,
+    "prompt": "What are the best practices for writing clean, maintainable code?",
+    "category": "technical"
+  },
+  {
+    "id": 8,
+    "prompt": "Describe the process of photosynthesis in plants.",
+    "category": "factual"
+  },
+  {
+    "id": 9,
+    "prompt": "Write a persuasive argument for why companies should invest in renewable energy.",
+    "category": "persuasive"
+  },
+  {
+    "id": 10,
+    "prompt": "How does the human immune system work to fight off infections?",
+    "category": "factual"
+  },
+  {
+    "id": 11,
+    "prompt": "Create a SQL query to find the top 5 customers by total purchase amount.",
+    "category": "coding"
+  },
+  {
+    "id": 12,
+    "prompt": "Explain the theory of relativity in a way that's accessible to non-scientists.",
+    "category": "explanation"
+  },
+  {
+    "id": 13,
+    "prompt": "What are the ethical considerations of artificial intelligence in healthcare?",
+    "category": "analytical"
+  },
+  {
+    "id": 14,
+    "prompt": "Write a haiku about the changing seasons.",
+    "category": "creative"
+  },
+  {
+    "id": 15,
+    "prompt": "Compare and contrast democracy and authoritarianism as forms of government.",
+    "category": "analytical"
+  },
+  {
+    "id": 16,
+    "prompt": "Explain how neural networks learn from data.",
+    "category": "technical"
+  },
+  {
+    "id": 17,
+    "prompt": "What are the key factors to consider when starting a small business?",
+    "category": "advisory"
+  },
+  {
+    "id": 18,
+    "prompt": "Describe the water cycle and its importance to Earth's ecosystems.",
+    "category": "factual"
+  },
+  {
+    "id": 19,
+    "prompt": "Write a professional email declining a job offer politely.",
+    "category": "writing"
+  },
+  {
+    "id": 20,
+    "prompt": "What are the potential benefits and risks of gene editing technology?",
+    "category": "analytical"
+  }
+]

@@ -1,0 +1,32 @@
+# Model Evaluation Configuration
+
+# OpenAI API Configuration
+openai:
+  api_key_env: "OPENAI_API_KEY"  # Environment variable name containing the API key
+  
+# Models to evaluate
+models:
+  - "gpt-4"
+  - "gpt-4-turbo"
+  - "gpt-4o"
+  - "gpt-3.5-turbo"  # For comparison
+
+# RAGAS Evaluator Configuration
+evaluator:
+  model: "gpt-4o-mini"  # Model to use for quality evaluation (cheaper/faster than gpt-4)
+  
+# RAGAS Metrics (only those that don't require ground truth)
+metrics:
+  enable_ragas: false  # Set to true to enable RAGAS evaluation (slower but adds quality scores)
+  metrics_list:
+    - "answer_relevancy"  # Evaluates relevance to the question
+  
+# Output Configuration
+output:
+  csv_path: "evaluation_results.csv"
+  include_timestamp: true
+  
+# Execution Settings
+execution:
+  max_retries: 3  # Retry failed API calls
+  timeout_seconds: 60  # Timeout for each API call
